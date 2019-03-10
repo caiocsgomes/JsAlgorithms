@@ -17,6 +17,4 @@ var steps = function(n, row = 0, stair = ''){
     steps(n, row, stair);
 };
 
-steps(9);
-
 module.exports = steps;
